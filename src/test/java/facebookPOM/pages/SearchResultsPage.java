@@ -22,6 +22,7 @@ public class SearchResultsPage {
 
 	public SearchResultsPage() {
 		// TODO Auto-generated constructor stub
+
 	}
 
 	public boolean at() {
@@ -35,6 +36,7 @@ public class SearchResultsPage {
 
 	public boolean resultsContain(String friendName) {
 		// TODO Auto-generated method stub
+
 		return true;
 	}
 

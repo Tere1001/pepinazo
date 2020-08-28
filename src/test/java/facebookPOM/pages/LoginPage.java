@@ -50,15 +50,14 @@ public class LoginPage {
 		// existe el campo de busqueda?
 		// existe el boton de busqueda?
 		// retorna verdadero.
+
 		return emailField.isDisplayed() && passwordField.isDisplayed() && loginButton.isDisplayed();
 	}
 
 	public void login(String user, String password) {
 		
 		emailField.sendKeys(user);
-		
 		passwordField.sendKeys(password);
-	
 		loginButton.click();
 
 	}
@@ -99,6 +98,7 @@ public class LoginPage {
 
 
 	public boolean loginButtonDisabled() {
+
 		return !loginButton.isEnabled();
 	}
 
